@@ -21,4 +21,10 @@ public class MainActivity extends Activity {
         startActivity(intent);
         finish();
     }
+
+    public void walk(View view) {
+        Intent intent = new Intent(this, WalkActivity.class);
+        startActivity(intent);
+        finish();
+    }
 }
