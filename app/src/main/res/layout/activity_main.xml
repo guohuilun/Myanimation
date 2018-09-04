@@ -2,14 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:background="@mipmap/mmainactivity">
 
     <Button
         android:id="@+id/outer_animantion"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="10dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
         android:onClick="outer"
         android:text="点击动画"
         android:textColor="#0000FF"
@@ -17,9 +17,10 @@
 
     <Button
         android:id="@+id/button_walk"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
         android:onClick="walk"
         android:text="点击开启"
         android:textColor="#0000FF"
